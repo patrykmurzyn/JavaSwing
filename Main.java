@@ -64,6 +64,6 @@ public class Main {
 
         groups.getClass("1B").sortByPoints();
 
-        //new SwingGUI(groups);
+        new SwingGUI(groups);
     }
 }
