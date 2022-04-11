@@ -1,6 +1,6 @@
 package com.hello;
 
-    public class Main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -62,14 +62,8 @@ package com.hello;
 
         groups.summary();
 
-        //c1.searchPatrial("a");
-        //c1.countByCondition(StudentCondition.obecny);
+        groups.getClass("1B").sortByPoints();
 
-        //groups.getClass("1B").sortByPoints();
-
-
-        //c1.max();
-
-        new SwingGUI(groups);
+        //new SwingGUI(groups);
     }
 }
